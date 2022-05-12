@@ -111,7 +111,7 @@ def save_results(collocates, B, AB, MI, csv_name):
     # create list
     list_context = list(zip(collocates, B, AB, MI))
     # make that list into a dataframe
-    dframe = pd.DataFrame(list_context, columns = ['words', 'B', 'AB', 'MI']).set_index("words")
+    dframe = pd.DataFrame(list_context, columns = ["words", "B", "AB", "MI"]).set_index("words")
     # round to 2 decimals
     dframe = dframe.round(decimals = 2)
     # save the csv with a user-defined name
