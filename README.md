@@ -20,3 +20,4 @@ To run the code you should:
   - The name of the text should be the name of one of the texts in the ```in``` folder
 
 ## 4. Discussion of the Results
+While this approach gets quick results very easily, there are also more accurate and complex approaches such as word embeddings. Furthermore, the preprocessing of the text that makes everything lower case and removes unwanted characters could also potentially include removing stop words and/or converting all words to their lemmas.
