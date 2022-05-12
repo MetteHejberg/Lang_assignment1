@@ -19,7 +19,7 @@ To run the code you should:
 - Write in the command line: ```python src/mutual_information.py -n "name_of_the_text.txt" -t "user-defined_search_term" -c "name_of_the_csv_to_save.csv"
   - The name of the text should be the name of one of the texts in the ```in``` folder
 
-The csv in ```out``` was created with the following code in the terminal: ```python src/mutual_information.py -n "Bennet_Helen_1910.txt" -t "ball" -c "Bennet_Helen.csv"```
+The csv in ```out``` was created with the following code in the terminal: ```python src/mutual_information.py -n "Bennet_Helen_1910.txt" -t "ball" -c "Bennet_Helen_MI.csv"```
 
 ## 4. Discussion of the Results
 While this approach gets quick results very easily, there are also more accurate and complex approaches such as word embeddings. Furthermore, the preprocessing of the text that makes everything lower case and removes unwanted characters could also potentially include removing stop words and/or converting all words to their lemmas.
