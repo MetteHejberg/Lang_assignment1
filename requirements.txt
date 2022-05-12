@@ -1,0 +1,7 @@
+Import the following packages from the command line:
+- os
+- re
+- spacy
+- math
+- pandas
+- argparse 
