@@ -20,12 +20,12 @@ Get the data here:
 
 ## 3. Usage
 To run the code you should:
-- Pull this repository with this file structure
-- Place the texts in the ```in``` folder
+- Pull this repository with this folder structure
+- Place the texts in the ```in``` folder inside a folder called ```corpus```
 - Install the packages mentioned in ```requirements.txt``` 
 - Set your current working directory to the level above ```src```
 - Write in the command line either: ```python src/mutual_information.py -f "file to use" -t "user-defined_search_term"``` or: ```python src/mutual_information.py -d "directory to use" -t "user-defined_search_term"```
-  - The name of the text should be the name of one of the texts in the ```in``` folder
+  - The name of the text should be the name of one of the texts in the ```corpus``` folder
   - The csv in ```out``` was created with the following code in the terminal: ```python src/mutual_information.py -f "Bennet_Helen_1910.txt" - "park"```
 
 ## 4. Discussion of Results
