@@ -16,10 +16,9 @@ To run the code you should:
 - Place the texts in the ```in``` folder
 - Install the packages mentioned in ```requirements.txt``` 
 - Set your current working directory to the level above ```src```
-- Write in the command line: ```python src/mutual_information.py -n "name_of_the_text.txt" -t "user-defined_search_term" -c "name_of_the_csv_to_save.csv"```
+- Write in the command line either: ```python src/mutual_information.py -f "file to use" -t "user-defined_search_term"``` or: ```python src/mutual_information.py -d "directory to use" -t "user-defined_search_term"```
   - The name of the text should be the name of one of the texts in the ```in``` folder
-
-The csv in ```out``` was created with the following code in the terminal: ```python src/mutual_information.py -n "Bennet_Helen_1910.txt" -t "ball" -c "Bennet_Helen_MI.csv"```
+  - The csv in ```out``` was created with the following code in the terminal: ```python src/mutual_information.py -f "Bennet_Helen_1910.txt" - "park"
 
 ## 4. Discussion of Results
 While this approach gets quick results very easily, there are also more accurate and complex approaches such as word embeddings. Furthermore, the preprocessing of the text that makes everything lower case and removes unwanted characters could also potentially include removing stop words and/or converting all words to their lemmas.
