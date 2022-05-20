@@ -6,13 +6,13 @@ import pandas as pd
 import argparse
 
 def load_data(name):
-    filepath = os.path.join("..", "CDS-LANG", "100_english_novels", "corpus", name)
+    filepath = os.path.join("in", "100_english_novels", "corpus", name)
     file_object = open(filepath, "r")
     text = file_object.read()
     return text
 
 def load_directory(directory): # I got this function from Agnes
-    path = os.path.join("..", "CDS-LANG", "100_english_novels", directory)
+    path = os.path.join("in", "100_english_novels", directory)
     file_list = os.listdir(path)
     return path, file_list
 
