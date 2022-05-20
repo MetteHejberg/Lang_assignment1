@@ -8,7 +8,7 @@ For this assignment, you will write a small Python program to perform collocatio
 - Save the results as a CSV file with (at least) the following columns: the collocate term; how often it appears as a collocate; how often it appears in the text; the mutual information score.
 
 ## 2. Methods
-This assignment relates to the distributional hypothesis - that we want learn something about the meaning of a word from the other words around it. Therefore, this script how often a user-defined search term appears in a text, which other words appear with it, and calculates the frequency these words appear together with the search term with compared to when they don't to see how much these words add to the meaning of the search term.
+This assignment relates to the distributional hypothesis - that we can learn something about the meaning of a word from the other words around it. Therefore, this script how often a user-defined search term appears in a text, which other words appear with it, and calculates the frequency these words appear together with the search term with compared to when they don't to see how much these words add to the meaning of the search term.
 
 ## 3. Usage
 To run the code you should:
