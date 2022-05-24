@@ -16,7 +16,7 @@ The script allows the user to either load a single file or an entire directory. 
 
 The mutual information score is calculated with the following formula: MI = log((AB*sizeCorpus)/(A*B*span))/log(2) 
 
-Get the data here: 
+Get the data here: https://github.com/computationalstylistics/100_english_novels
 
 ## 3. Usage
 To run the code you should:
