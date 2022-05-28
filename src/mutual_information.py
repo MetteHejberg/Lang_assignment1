@@ -8,7 +8,7 @@ import argparse
 
 # load a single file
 def load_data(name):
-    filepath = os.path.join("..", "CDS-LANG", "100_english_novels", "corpus", name)
+    filepath = os.path.join("in", "corpus", name)
     file_object = open(filepath, "r")
     text = file_object.read()
     # make everything lower case
@@ -19,7 +19,7 @@ def load_data(name):
 
 # load an entire directory
 def load_directory(directory): 
-    path = os.path.join("..", "CDS-LANG", "100_english_novels", directory)
+    path = os.path.join("in", directory)
     file_list = os.listdir(path)
     return path, file_list
 
